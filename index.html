@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomasz Gajda | Front-End Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Placeholder for FontAwesome, might need a real CDN or SVG icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./images/logo 1.png" alt="TG Logo" id="logo-img" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="contact-btn">CONTACT ME</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <header id="hero">
+      <div class="hero-left">
+        <div class="hero-content">
+          <p class="greeting">Hi, I am</p>
+          <h1 class="name">Tomasz Gajda</h1>
+          <p class="role">Front-end Developer / UI Designer</p>
+          <div class="social-icons">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-image-container">
+          <!-- Image will be set via CSS or img tag -->
+          <img
+            src="../images/image 17.png"
+            alt="Tomasz Gajda"
+            class="profile-img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- IT BERRIES SECTION – EXACT SAME AS YOUR IMAGE -->
+    <section class="itberries">
+      <div class="container">
+        <div class="row">
+          <!-- Left Text -->
+          <div class="col-lg-6 position-relative z-2">
+            <h2 class="it-heading">IT BERRIES</h2>
+            <p>
+              Nulla mi metus, rhoncus in tempor, ultricies in sem. Sed ornare
+              magna et amet lorem ultricies, vitae ultricies quam facilisis ut.
+              Aliquet quam libero, eu bibendum lacus facilisis at. Morbi commodo
+              eros in tempus luctus, odio dui rutrum augue, sit amet ultricies
+              quam elit et nisi. Vestibulum et ligula porta, ultrices lectus
+              sed, hendrerit urna. Donec sed orci consequat, ultrices sem sed,
+              hendrerit urna.
+            </p>
+
+            <div class="text-start">
+              <a href="#" class="read-more-btn">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+
+        <div class="about-content">
+          <p>
+            I am a junior front-end developer and a student of Applied Computer
+            Science at the AGH University of Science and Technology in Krakow.
+          </p>
+
+          <p></p>
+        </div>
+
+        <a href="#" class="explore-btn">Explore More</a>
+      </div>
+
+      <br />
+      <br />
+      <svg
+        width="200"
+        height="12"
+        viewBox="0 0 170 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect width="170" height="12" fill="url(#pattern0_1_878)" />
+        <defs>
+          <pattern
+            id="pattern0_1_878"
+            patternContentUnits="objectBoundingBox"
+            width="1"
+            height="1"
+          >
+            <use
+              xlink:href="#image0_1_878"
+              transform="scale(0.00588235 0.0833333)"
+            />
+          </pattern>
+          <image
+            id="image0_1_878"
+            width="170"
+            height="12"
+            preserveAspectRatio="none"
+            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAMCAYAAADyMyZxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RERGOUZCMTkxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RERGOUZCMTgxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0543MwAAAuxJREFUeNrsmVuITVEYx/e4XwrjmBljGrfJMCbJJZ0cpKHcXiiah2ki5FkSkhLywINIEkVIUcotuY94oYmQ6wi5Ny7JMWPcx/H/8p36+lrrrDnnbdn7q1/NmvPb++w96z9rrb12EISj4uAi6OXwysAVMMDhFYA6MCrH6+kJzoGJDq8TOAzmObw8sA0sD6LytsaDJEiBGyDf4g0Br9h7BgZmCOkd9j6CMTmE9Bof/wVMyhDSo+z9BtUZQrqdPWJF1OV+1lTQIjryJogZvJHgvfCeg0EGrxQ8Ed4nMDaLkNaLY7+DGZaQHhfeH7DEEtIdwiM2Rl3ub1WpsN4CfQzeCBXWF2CwwSsBj4RHI/Y4xzXQsuO6OOYbmG4J6UkV0sWWkO5UId0QdbX/NVmF9TZP47oqwTvhveS1q65+oEGFNW757nxedqTdr2CaJaSnhNcKFlpCukuFdN3/3Hl5linFl/oJ9mXh03rwNOjO7btgCvigvOHgEiji9mselR8rr5i9Ydz+DGaCq8LpDS6A0dymkM4B59W5uoBjYpSlkC4C+w19tluNsmvBese9L+B/BG8r5THJHO6XnrSbxTnugUKDVwEahUdhLTd4fcED4VFYE/xZjNfE6c9aeM2sqys4Kzx6eKo1eO3AHvU3WNPG+0563tehCyrVBNAkznNfjJ6yaKR8Izz6eajBK+JzpD0692xeC8uQVhmO7cZbVTKkNQavPdir7n91FvfsdVBpGlnp8WzwA2zN8dgELwN6cPshB+mt8sp5ei/hdiN7DcorZK/S8F003c8Clw0hPSFG2VYeSQ8ZQkoj6Xzxu1VgUxb3uxR0jh5V/N9jTXFYix17rCkOa4VjjzVNc2De2KeQ1qmRtNoykh5Q54w29kNYcRHW+sD+9qqMdwDIewr6W7wCMeU38TLDVB3BEfZ+Bfa3TzTrbREhXRZ1WXiLNuzPBP825DMV7anSq9hShxfjaT7h8DqAg2BuG65xM0/foay/AgwAzVefd5V3qsgAAAAASUVORK5CYII="
+          />
+        </defs>
+      </svg>
+    </section>
+
+    <section class="services-section">
+      <img src="./images/Services.png" alt="" />
+
+      <svg
+        width="200"
+        height="12"
+        viewBox="0 0 170 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect width="170" height="12" fill="url(#pattern0_1_878)" />
+        <defs>
+          <pattern
+            id="pattern0_1_878"
+            patternContentUnits="objectBoundingBox"
+            width="1"
+            height="1"
+          >
+            <use
+              xlink:href="#image0_1_878"
+              transform="scale(0.00588235 0.0833333)"
+            />
+          </pattern>
+          <image
+            id="image0_1_878"
+            width="170"
+            height="12"
+            preserveAspectRatio="none"
+            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAMCAYAAADyMyZxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RERGOUZCMTkxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RERGOUZCMTgxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0543MwAAAuxJREFUeNrsmVuITVEYx/e4XwrjmBljGrfJMCbJJZ0cpKHcXiiah2ki5FkSkhLywINIEkVIUcotuY94oYmQ6wi5Ny7JMWPcx/H/8p36+lrrrDnnbdn7q1/NmvPb++w96z9rrb12EISj4uAi6OXwysAVMMDhFYA6MCrH6+kJzoGJDq8TOAzmObw8sA0sD6LytsaDJEiBGyDf4g0Br9h7BgZmCOkd9j6CMTmE9Bof/wVMyhDSo+z9BtUZQrqdPWJF1OV+1lTQIjryJogZvJHgvfCeg0EGrxQ8Ed4nMDaLkNaLY7+DGZaQHhfeH7DEEtIdwiM2Rl3ub1WpsN4CfQzeCBXWF2CwwSsBj4RHI/Y4xzXQsuO6OOYbmG4J6UkV0sWWkO5UId0QdbX/NVmF9TZP47oqwTvhveS1q65+oEGFNW757nxedqTdr2CaJaSnhNcKFlpCukuFdN3/3Hl5linFl/oJ9mXh03rwNOjO7btgCvigvOHgEiji9mselR8rr5i9Ydz+DGaCq8LpDS6A0dymkM4B59W5uoBjYpSlkC4C+w19tluNsmvBese9L+B/BG8r5THJHO6XnrSbxTnugUKDVwEahUdhLTd4fcED4VFYE/xZjNfE6c9aeM2sqys4Kzx6eKo1eO3AHvU3WNPG+0563tehCyrVBNAkznNfjJ6yaKR8Izz6eajBK+JzpD0692xeC8uQVhmO7cZbVTKkNQavPdir7n91FvfsdVBpGlnp8WzwA2zN8dgELwN6cPshB+mt8sp5ei/hdiN7DcorZK/S8F003c8Clw0hPSFG2VYeSQ8ZQkoj6Xzxu1VgUxb3uxR0jh5V/N9jTXFYix17rCkOa4VjjzVNc2De2KeQ1qmRtNoykh5Q54w29kNYcRHW+sD+9qqMdwDIewr6W7wCMeU38TLDVB3BEfZ+Bfa3TzTrbREhXRZ1WXiLNuzPBP825DMV7anSq9hShxfjaT7h8DqAg2BuG65xM0/foay/AgwAzVefd5V3qsgAAAAASUVORK5CYII="
+          />
+        </defs>
+      </svg>
+    </section>
+
+    <section class="skills-section py-5">
+      <div class="container text-center">
+        <!-- SKILLS BOX -->
+        <div class="skills-title-box">
+          <h4 class="skills-title">SKILLS</h4>
+        </div>
+
+        <!-- USING NOW -->
+        <h6 class="subheading">USING NOW:</h6>
+
+        <div class="row justify-content-center mt-4 mb-5 gx-5 gy-4">
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/html.png" class="skill-icon" />
+            <p>HTML5</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/css.png" class="skill-icon" />
+            <p>CSS3</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/sass.png" class="skill-icon" />
+            <p>SASS</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/js.png" class="skill-icon" />
+            <p>JAVASCRIPT</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/react.png" class="skill-icon" />
+            <p>REACT</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/bootstrap.png" class="skill-icon" />
+            <p>BOOTSTRAP</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/git.png" class="skill-icon" />
+            <p>GIT</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/figma.png" class="skill-icon" />
+            <p>FIGMA</p>
+          </div>
+        </div>
+
+        <!-- LEARNING -->
+        <h6 class="subheading">LEARNING:</h6>
+
+        <div class="row justify-content-center mt-4 mb-5 gx-5 gy-4">
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/jss.png" class="skill-icon" />
+            <p>NODEJS</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/post.png" class="skill-icon" />
+            <p>MYSQL</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/mongo.png" class="skill-icon" />
+            <p>MONGODB</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/TS.png" class="skill-icon" />
+            <p>TYPESCRIPT</p>
+          </div>
+        </div>
+
+        <!-- OTHER SKILLS -->
+        <h6 class="subheading">OTHER SKILLS:</h6>
+
+        <div class="row justify-content-center mt-4 gx-5 gy-4">
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/aa.png" class="skill-icon" />
+            <p>ANGIELSKI<br />C1/C2</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/e.png" class="skill-icon" />
+            <p>HISZPAŃSKI<br />B1/B2</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/c++.png" class="skill-icon" />
+            <p>C++</p>
+          </div>
+
+          <div class="col-6 col-md-3 skill-item">
+            <img src="./images/c.png" class="skill-icon" />
+            <p>C</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="image-container">
+  <img src="./images/Section Header.png" alt="Banner Image" class="responsive-img">
+  
+</div>
+
+<div class="filter-bar">
+  <div class="filter-text">
+    <p>ALL</p>
+    <p>CODED</p>
+    <p>DESIGNED</p>
+  </div>
+
+  <hr>
+</div>
+
+<div class="large-background">
+  <img src="./images/Projects (1).png" alt="">
+</div>
+
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+         <div class="about-content">
+          <p>
+            I am a junior front-end developer and a student of Applied Computer
+            Science at the AGH University of Science and Technology in Krakow.
+          </p>
+
+          <svg
+        width="200"
+        height="12"
+        viewBox="0 0 170 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect width="170" height="12" fill="url(#pattern0_1_878)" />
+        <defs>
+          <pattern
+            id="pattern0_1_878"
+            patternContentUnits="objectBoundingBox"
+            width="1"
+            height="1"
+          >
+            <use
+              xlink:href="#image0_1_878"
+              transform="scale(0.00588235 0.0833333)"
+            />
+          </pattern>
+          <image
+            id="image0_1_878"
+            width="170"
+            height="12"
+            preserveAspectRatio="none"
+            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKoAAAAMCAYAAADyMyZxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RERGOUZCMTkxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RERGOUZCMTgxNUEzMTFFNDgzOEZCNTFFNTNBOUQ0NTkiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA0ODAxMTc0MDcyMDY4MTE4MDgzRTI5QjZFREE2OEQxIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0543MwAAAuxJREFUeNrsmVuITVEYx/e4XwrjmBljGrfJMCbJJZ0cpKHcXiiah2ki5FkSkhLywINIEkVIUcotuY94oYmQ6wi5Ny7JMWPcx/H/8p36+lrrrDnnbdn7q1/NmvPb++w96z9rrb12EISj4uAi6OXwysAVMMDhFYA6MCrH6+kJzoGJDq8TOAzmObw8sA0sD6LytsaDJEiBGyDf4g0Br9h7BgZmCOkd9j6CMTmE9Bof/wVMyhDSo+z9BtUZQrqdPWJF1OV+1lTQIjryJogZvJHgvfCeg0EGrxQ8Ed4nMDaLkNaLY7+DGZaQHhfeH7DEEtIdwiM2Rl3ub1WpsN4CfQzeCBXWF2CwwSsBj4RHI/Y4xzXQsuO6OOYbmG4J6UkV0sWWkO5UId0QdbX/NVmF9TZP47oqwTvhveS1q65+oEGFNW757nxedqTdr2CaJaSnhNcKFlpCukuFdN3/3Hl5linFl/oJ9mXh03rwNOjO7btgCvigvOHgEiji9mselR8rr5i9Ydz+DGaCq8LpDS6A0dymkM4B59W5uoBjYpSlkC4C+w19tluNsmvBese9L+B/BG8r5THJHO6XnrSbxTnugUKDVwEahUdhLTd4fcED4VFYE/xZjNfE6c9aeM2sqys4Kzx6eKo1eO3AHvU3WNPG+0563tehCyrVBNAkznNfjJ6yaKR8Izz6eajBK+JzpD0692xeC8uQVhmO7cZbVTKkNQavPdir7n91FvfsdVBpGlnp8WzwA2zN8dgELwN6cPshB+mt8sp5ei/hdiN7DcorZK/S8F003c8Clw0hPSFG2VYeSQ8ZQkoj6Xzxu1VgUxb3uxR0jh5V/N9jTXFYix17rCkOa4VjjzVNc2De2KeQ1qmRtNoykh5Q54w29kNYcRHW+sD+9qqMdwDIewr6W7wCMeU38TLDVB3BEfZ+Bfa3TzTrbREhXRZ1WXiLNuzPBP825DMV7anSq9hShxfjaT7h8DqAg2BuG65xM0/foay/AgwAzVefd5V3qsgAAAAASUVORK5CYII="
+          />
+        </defs>
+      </svg>
+
+        
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="YOUR NAME*" required />
+          <input type="email" placeholder="YOUR EMAIL*" required />
+          <textarea placeholder="YOUR MESSAGE*" required></textarea>
+          <button type="submit" class="mt-2">SUBMIT</button>
+        </form>
+        
+       
+      </div>
+    </section>
+
+    <footer>
+      <div class="back-to-top">
+       <img src="./images/ic_baseline-double-arrow.png" alt="">
+       </div>
+       
+       <button class="back-to-top-btn">BACK TO TOP</button>
+       <div class="footer icons">
+        <img src="./images/fb.png" alt="">
+        <img src="./images/lindin.png" alt="">
+        <img src="./images/insta.png" alt="">
+        <img src="./images/email.png" alt="">
+       </div>
+      <p>@2025 Tomasz Gajda All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
